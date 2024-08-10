@@ -1,6 +1,16 @@
 # Jais-13b-chat Bitsandbytes 8 bit and 4 bit quantization
 
-The enclosed Jupyter Notebook shows how to make Bitsandbytes 8 bit and 4 bit quantizations for the Arabic Jais-13b-chat LLM model. The Gradio application is used to compare the accuracy of the results,
+The enclosed Jupyter Notebook shows how to make Bitsandbytes 8 bit and 4 bit quantizations for the Arabic Jais-13b-chat LLM model. The Gradio application is used to compare the accuracy of the results.
+
+## Initial set
+
+Setup up the virtual environment
+
+```console
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Jais-13b-chat Bitsandbytes 8 bit
 
